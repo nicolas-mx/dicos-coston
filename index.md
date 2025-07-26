@@ -1,7 +1,14 @@
 ---
 title: Home
 layout: home
+nav_order: 0
+has_children: true
 ---
+
+# Dictionnaire Coston
+
+Bienvenue dans le dictionnaire politique de Coston.
+
 ## Lettres disponibles
 
 - [A](a/)
