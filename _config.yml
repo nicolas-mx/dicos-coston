@@ -7,7 +7,27 @@ url: https://nicolas-mx.github.io/dicos-coston
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
+# Define Jekyll collections
 collections:
-  a:  
+  # Define a collection named "tests", its documents reside in the "_tests" directory
+  a:
+    permalink: "/a/"
     output: true
-    permalink: /a/:title  
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "tests" collection
+    a:
+      # Give the collection a name
+      name: LettreA
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      # nav_exclude: true
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      # nav_fold: true  # note: this option is new in v0.4
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      # search_exclude: true
+
