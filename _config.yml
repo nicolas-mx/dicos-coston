@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Les dictionnaires politiques de Henry Coston
+description: Ce site regourpe les articles des Dictionnaires politiques de 1967, 1972, 1979, 1982, 2000 ainsi que ceux du Dictionnaire des dynasties bourgeoises qui date lui de 1975. .
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://nicolas-mx.github.io/dicos-coston
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
