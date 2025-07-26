@@ -6,3 +6,8 @@ url: https://nicolas-mx.github.io/dicos-coston
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+collections:
+  a:  
+    output: true
+    permalink: /a/:title  
